@@ -16,11 +16,21 @@ U sklopu analize generirano je 5 ključnih vizualizacija:
 ![Graf 1](assets/graph1_temp_h2o.png)
 *Interpretacija: Vidljivo je da se pozitivne detekcije metana grupiraju u specifičnim temperaturnim rasponima...*
 
-### B. Satelitska mapa misije (Jezero Crater)
-![Satelitska mapa](assets/jezero_mission_map.png)
-*Interpretacija: Korištenjem 'extent' parametra, analitički rezultati su precizno preklopljeni sa satelitskom snimkom. Žute zvjezdice označavaju ciljeve za iduću fazu bušenja.*
+### B. Prostorna raspodjela dubine bušenja
+![Graf 2](assets/graph2_heatmap_depth.png)
+*Interpretacija: Ova vizualizacija koristi gradaciju boja (YlOrBr) kako bi prikazala potrebnu dubinu sondiranja na različitim GPS koordinatama. Tamnija područja ukazuju na lokacije gdje je, prema inicijalnim očitanjima, potrebno dublje bušenje (do 15 cm) kako bi se dosegli relevantni slojevi tla.*
 
-*(Ovdje dodaj i ostala 3 grafa na isti način)*
+### C. Lokacije pozitivne detekcije metana
+![Graf 3](assets/graph3_methane_scatter.png)
+*Interpretacija: Graf jasno razgraničava negativna (plava) i pozitivna (crvena) očitanja metana. Grupiranje crvenih točaka u središnjem dijelu istraživanog područja poslužilo je kao prvi eliminacijski faktor za definiranje prioriteta misije.*
+
+### D. Identifikacija kandidata za život
+![Graf 4](assets/scatter_plot.png)
+*Interpretacija: Analitička karta koja kombinira podatke o metanu i organskim molekulama. Crvene zvjezdice predstavljaju "Kandidate za život" – točke koje su prošle sve filtre i postale dio automatiziranog JSON naloga za kretanje rovera*
+
+### E. Satelitska mapa misije (Jezero Crater)
+![Graf 5](assets/jezero_missija_map.png)
+*Interpretacija: Korištenjem 'extent' parametra, analitički rezultati su precizno preklopljeni sa satelitskom snimkom. Žute zvjezdice označavaju ciljeve za iduću fazu bušenja.*
 
 ## 4. Inženjerski dnevnik
 Tijekom razvoja projekta riješeni su sljedeći tehnički izazovi:
