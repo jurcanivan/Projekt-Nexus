@@ -40,3 +40,5 @@ Tijekom razvoja projekta riješeni su sljedeći tehnički izazovi:
 
 ## 5. Komunikacijski protokol
 Finalni nalog je generiran u JSON formatu i sadrži tri akcije za svaku metu: Navigacija, Sondiranje i Slanje podataka.
+
+![Smiley](assets/smiley.gif)
